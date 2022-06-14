@@ -72,17 +72,37 @@ img {
     width: 400px;
 }
 
-.locations {
-    display: flex;
-}
 
 .info .img {
-    width: 100px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
 }
 
 .title {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.information {
+    text-align: center;
+    padding: 25px 25px 100px 25px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info .text {
+    max-width: 150px;
+    color: black;
 }
