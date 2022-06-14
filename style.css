@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 .header {
@@ -70,4 +70,19 @@ button {
 img {
     height: auto;
     width: 400px;
+}
+
+.locations {
+    display: flex;
+}
+
+.info .img {
+    width: 100px;
+    height: 200px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
