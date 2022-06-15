@@ -75,7 +75,7 @@ img {
 
 .info .img {
     width: 150px;
-    height: 100px;
+    height: auto;
     border: 2px solid #3882F6;
     border-radius: 5px;
 }
@@ -105,4 +105,31 @@ img {
 .info .text {
     max-width: 150px;
     color: black;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.block-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    padding: 0px 40px 0px 0px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2937;
+    font-weight: bolder;
 }
