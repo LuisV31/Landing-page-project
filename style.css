@@ -134,3 +134,32 @@ img {
     color: #1F2937;
     font-weight: bolder;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #3882F6;
+    padding: 50px;
+    height: 80px;
+    width: 650px;
+    border-radius: 8px;
+}
+
+.call-action {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-button {
+    border-color: white;
+}
