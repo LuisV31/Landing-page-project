@@ -163,3 +163,11 @@ img {
 .signup-button {
     border-color: white;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: #1F2937;
+    color: white;
+}
