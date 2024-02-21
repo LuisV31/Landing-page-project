@@ -4,7 +4,7 @@
     padding: 0
 }
 
-.header {
+header {
     display: flex;
     padding: 8px;
     align-items: center;
@@ -93,7 +93,7 @@ img {
     gap: 52px;
 }
 
-.information {
+section {
     text-align: center;
     padding: 25px 25px 100px 25px;
 }
@@ -116,7 +116,11 @@ img {
     padding: 75px 0px 75px 0px;
 }
 
-.block-quote {
+.quote footer {
+    background-color: transparent;
+}
+
+blockquote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -124,7 +128,7 @@ img {
     align-items: center;
 }
 
-.source {
+cite {
     display: flex;
     justify-content: flex-end;
     width: 800px;
@@ -133,6 +137,7 @@ img {
     font-family: 'Times New Roman', Times, serif;
     color: #1F2937;
     font-weight: bolder;
+    background-color: #E5E7EB;
 }
 
 .sign-up {
@@ -164,10 +169,23 @@ img {
     border-color: white;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     padding: 8px;
     background-color: #1F2937;
     color: white;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+    /* added to ensure the text does not wrap */
 }
